@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/candidate/page": "app/candidate/page.js",
+  "/chat/page": "app/chat/page.js",
+  "/hr/page": "app/hr/page.js",
+  "/voice/page": "app/voice/page.js"
+}

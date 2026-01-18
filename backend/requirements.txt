@@ -1,0 +1,33 @@
+# AI Candidate Assessment Platform - Backend Requirements
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# LLM & AI - Using Grok (via OpenAI SDK)
+openai>=1.0.0
+langchain==0.1.6
+langchain-openai>=0.0.5
+
+# PDF Processing
+PyMuPDF
+
+# Async & Background Tasks
+python-multipart
+aiofiles
+
+# WebSockets
+websockets
+
+# Caching (optional)
+redis
+
+# Utilities
+python-dotenv
+httpx
+
+# Testing
+pytest
+pytest-asyncio
